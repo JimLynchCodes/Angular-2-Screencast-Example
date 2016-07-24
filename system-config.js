@@ -27,6 +27,7 @@ var barrels = [
     // App specific barrels.
     'app',
     'app/shared',
+    'app/routes/login/login',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
