@@ -14,7 +14,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'localhost:4200/',
   framework: 'custom',
 
   // path relative to the current config file
@@ -35,3 +35,6 @@ exports.config = {
     // jasmine.getEnv().addReporter(new SpecReporter());
   }
 };
+
+
+
